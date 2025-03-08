@@ -8,7 +8,9 @@ function isValid(email){
 let email1 = "abc";
 let email2 = "abc.xyz";
 let email3 = "abc.xyz@bridgelabz";
+let email4 = "abc.xyz@bridgelabz.co";
 
 console.log(`Email ${email1} is `,isValid(email1));
 console.log(`Email "${email2}" is `, isValid(email2));
 console.log(`Email "${email3}" is `, isValid(email3));
+console.log(`Email "${email4}" is `, isValid(email4));
