@@ -6,6 +6,8 @@ function validatePIN(pinCode) {
 }
 
 // Test PIN codes
-const pinCode1 = "400088"; 
+const pinCode1 = "400088";
+const pinCode2 = "A400088"; 
 
 console.log(`Is valid PIN Code (${pinCode1})? `, validatePIN(pinCode1));
+console.log(`Is valid PIN Code (${pinCode2})? `, validatePIN(pinCode2));
