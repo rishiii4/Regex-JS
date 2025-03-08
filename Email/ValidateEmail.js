@@ -6,5 +6,7 @@ function isValid(email){
 
 // Email Test Cases
 let email1 = "abc";
+let email2 = "abc.xyz";
 
 console.log(`Email ${email1} is `,isValid(email1));
+console.log(`Email "${email2}" is `, isValid(email2));
