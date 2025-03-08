@@ -9,7 +9,9 @@ function validatePIN(pinCode) {
 const pinCode1 = "400088";
 const pinCode2 = "A400088"; 
 const pinCode3 = "40008@";
+const pinCode4 = "400 088"; 
 
 console.log(`Is valid PIN Code (${pinCode1})? `, validatePIN(pinCode1));
 console.log(`Is valid PIN Code (${pinCode2})? `, validatePIN(pinCode2));
 console.log(`Is valid PIN Code (${pinCode3})? `, validatePIN(pinCode3));
+console.log(`Is valid PIN Code (${pinCode4})? `, validatePIN(pinCode4));
