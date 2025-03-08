@@ -1,0 +1,11 @@
+function validatePIN(pinCode) {
+    // PIN code validation pattern
+    const regex = /^[1-9][0-9]{2}\s?[0-9]{3}$/;
+
+    return regex.test(pinCode);
+}
+
+// Test PIN codes
+const pinCode1 = "400088"; 
+
+console.log(`Is valid PIN Code (${pinCode1})? `, validatePIN(pinCode1));
